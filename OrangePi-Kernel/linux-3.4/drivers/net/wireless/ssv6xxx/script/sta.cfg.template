@@ -1,0 +1,34 @@
+
+hw_mac = MAC_ADDR
+hw_mac_2 = MAC2ADDR
+##################################################
+# Default channel after wifi on
+# value range: [1 ~ 14]
+##################################################
+def_chan = 11
+
+# Hardware Capability Settings:
+##################################################
+hw_cap_ht = on
+hw_cap_gf = off
+hw_cap_2ghz = on
+hw_cap_5ghz = off
+hw_cap_security = on
+hw_cap_sgi_20 = on
+hw_cap_sgi_40 = off
+hw_cap_ap = on
+hw_cap_p2p = on
+hw_cap_ampdu_rx = on
+hw_cap_ampdu_tx = on
+use_wpa2_only = 1
+
+##################################################
+# TX power level setting [0-14]
+# The larger the number the smaller the TX power
+# 0 - The maximum power
+# 1 level = -0.5db
+##################################################
+wifi_tx_gain_level_b = 6
+wifi_tx_gain_level_gn = 4
+
+

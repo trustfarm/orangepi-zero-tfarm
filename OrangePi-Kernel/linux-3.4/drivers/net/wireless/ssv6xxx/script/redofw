@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd ../ssv6200smac/firmware
+make scratch
