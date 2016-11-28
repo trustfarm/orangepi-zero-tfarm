@@ -11,11 +11,11 @@ Building
 
 Kernel config files and the files specific to OPI-zero board are placed in **build** directory.
 
-The included build script *build_linux_kernel.sh* can be used to build the kernel<br />
-`./build_linux_kernel.sh [zero | clean]`
-
 The included build script *build_uboot.sh* can be used to build the uboot<br />
 `./build_uboot.sh [zero]`
+
+The included build script *build_linux_kernel.sh* can be used to build the kernel<br />
+`./build_linux_kernel.sh [zero | clean]`
 
 **clean** as 1st parameter cleans the kernel tree and build directories<br />
 or
@@ -23,8 +23,6 @@ or
 
 After the build the resulting kernel files (uImage and kernel modules) are placed into **build** directory.
 
-To build **script.bin** for all OPI-zero and resolutions run:<br />
-`./build_scripts [clean]`<br />
 **clean** as 1st parameter cleans the scripts and logs<br />
 
 =======================================================================================================================
