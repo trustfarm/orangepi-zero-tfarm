@@ -8,10 +8,15 @@ if [ "${1}" = "" ]; then
 	exit -1
 fi
 
+export PATH="$PWD/brandy/gcc-linaro/bin":"$PATH"
+cross_comp="arm-linux-gnueabi"
+echo `which arm-linux-gnueabi-gcc`
+
 echo "check uboot source ..."
 echo " "
 cd $basepath/u-boot-2016.7/configs
  
+
 config="orangepi_${1}_defconfig"
 echo $config
 
@@ -21,11 +26,11 @@ if [ ! -f $config ]; then
 fi
 
 echo "enter u-boot source director" && cd ../
-	echo "clear u-boot" && make distclean > /dev/null 2>&1
-	echo "compile u-boot" && make $config > /dev/null 2>&1
+	echo "clear u-boot" && make distclean  2>&1
+	echo "compile u-boot" && make $config   2>&1
 
 date
-echo "build u-boot,please wait ..." && make -j4 ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- > /dev/null 2>&1
+echo "build u-boot,please wait ..." && make -j4 ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-  2>&1
 date
 
 cd ../build/uboot
