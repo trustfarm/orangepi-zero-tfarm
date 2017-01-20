@@ -14,16 +14,16 @@ ONLY_BASE="no"
 # Set hostname, user to be created                    *
 # and root and user passwords                         *
 # *****************************************************
-HOSTNAME="OrangePizero"
-USER="orangepi"
-ROOTPASS="orangepi"
-USERPASS="orangepi"
+HOSTNAME="tfarmzerov1"
+USER="trustfarm"
+ROOTPASS="trustfarm"
+USERPASS="trustfarm"
 
 
 # *****************************************************
 # Set timezone, for default (HOST'S) set _timezone="" *
 # *****************************************************
-_timezone="Etc/UTC"
+_timezone="Asia/Seoul"
 #_timezone=""
 
 
@@ -114,7 +114,7 @@ repo="http://ports.ubuntu.com/ubuntu-ports"
 # after creation and make the md5sum file              *
 # to do that automatically, set  _compress="yes"       *
 # ******************************************************
-_compress="no"
+_compress="yes"
 
 
 # =====================================================
