@@ -1,3 +1,17 @@
+TRUSTFARM Makes Custom Image of orangepi-zero boards.
+It is based on Ubuntu Xenial linux distributions.
+
+more powered features are like this::
+1. xradio_wlan.ko  - default kernel embedded
+2. hci Bluetooth driver - default kernel embedded
+3. nginx and vim , bluez-* tools pre-installed.
+4. webmin packages pre-installed.
+5. Several useful Linux Kernel modules included in built packages.
+
+take advantages on your projects.
+
+--------------------
+
 The OrangePi-Kernel contains Linux kernel sources adapted for OrangePI zero, gcc toolchain
 The script "build_linux_kernel.sh" can be used to build the kernel
 
