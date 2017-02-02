@@ -117,6 +117,7 @@ kernel/drivers/net/wireless/p54/p54usb.ko: kernel/drivers/net/wireless/p54/p54co
 kernel/drivers/net/wireless/p54/p54spi.ko: kernel/drivers/net/wireless/p54/p54common.ko
 kernel/drivers/net/wireless/ath/ath.ko:
 kernel/drivers/net/wireless/iwmc3200wifi/iwmc3200wifi.ko:
+kernel/drivers/net/wireless/xradio/xradio_wlan.ko:
 kernel/drivers/net/wireless/brcm80211/brcmutil/brcmutil.ko:
 kernel/drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.ko: kernel/drivers/net/wireless/brcm80211/brcmutil/brcmutil.ko
 kernel/drivers/net/veth.ko:
@@ -210,6 +211,7 @@ kernel/drivers/media/common/tuners/max2165.ko:
 kernel/drivers/media/common/tuners/tda18218.ko:
 kernel/drivers/media/common/tuners/tda18212.ko:
 kernel/drivers/media/video/sunxi-vfe/device/ov5640.ko:
+kernel/drivers/media/video/sunxi-vfe/device/ov2640.ko:
 kernel/drivers/media/video/sunxi-vfe/device/ov7736.ko:
 kernel/drivers/media/video/sunxi-vfe/device/s5k4ec.ko:
 kernel/drivers/media/video/sunxi-vfe/device/s5k4ec_mipi.ko:
@@ -257,7 +259,6 @@ kernel/drivers/media/video/mt9m111.ko: kernel/drivers/media/video/soc_camera.ko 
 kernel/drivers/media/video/mt9t031.ko: kernel/drivers/media/video/soc_camera.ko kernel/drivers/media/video/soc_mediabus.ko kernel/drivers/media/video/videobuf2-core.ko
 kernel/drivers/media/video/mt9t112.ko: kernel/drivers/media/video/soc_camera.ko kernel/drivers/media/video/soc_mediabus.ko kernel/drivers/media/video/videobuf2-core.ko
 kernel/drivers/media/video/mt9v022.ko: kernel/drivers/media/video/soc_camera.ko kernel/drivers/media/video/soc_mediabus.ko kernel/drivers/media/video/videobuf2-core.ko
-kernel/drivers/media/video/ov2640.ko: kernel/drivers/media/video/soc_camera.ko kernel/drivers/media/video/soc_mediabus.ko kernel/drivers/media/video/videobuf2-core.ko
 kernel/drivers/media/video/ov5642.ko:
 kernel/drivers/media/video/ov6650.ko: kernel/drivers/media/video/soc_camera.ko kernel/drivers/media/video/soc_mediabus.ko kernel/drivers/media/video/videobuf2-core.ko
 kernel/drivers/media/video/ov772x.ko: kernel/drivers/media/video/soc_camera.ko kernel/drivers/media/video/soc_mediabus.ko kernel/drivers/media/video/videobuf2-core.ko
