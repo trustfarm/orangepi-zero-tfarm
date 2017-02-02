@@ -646,6 +646,7 @@ alias spi:p54spi p54spi
 alias spi:cx3110x p54spi
 alias sdio:c*v0089d1408* iwmc3200wifi
 alias sdio:c*v0089d1403* iwmc3200wifi
+alias xradio_core xradio_wlan
 alias usb:v0A5Cp0BDCd*dc*dsc*dp*ic*isc*ip* brcmfmac
 alias usb:v0A5CpBD17d*dc*dsc*dp*ic*isc*ip* brcmfmac
 alias sdio:c*v02D0d4330* brcmfmac
@@ -1080,6 +1081,7 @@ alias usb:v1C40p0534d*dc*dsc*dp*ic*isc*ip* i2c_tiny_usb
 alias usb:v0403pC631d*dc*dsc*dp*ic*isc*ip* i2c_tiny_usb
 alias platform:gpio-i2cmux gpio_i2cmux
 alias i2c:ov5640 ov5640
+alias i2c:ov2640 ov2640
 alias i2c:ov7736 ov7736
 alias i2c:s5k4ec s5k4ec
 alias i2c:s5k4ec_mipi s5k4ec_mipi
@@ -1124,7 +1126,6 @@ alias i2c:mt9m111 mt9m111
 alias i2c:mt9t031 mt9t031
 alias i2c:mt9t112 mt9t112
 alias i2c:mt9v022 mt9v022
-alias i2c:ov2640 ov2640
 alias i2c:ov5642 ov5642
 alias i2c:ov6650 ov6650
 alias i2c:ov772x ov772x

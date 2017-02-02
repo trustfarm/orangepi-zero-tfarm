@@ -216,6 +216,7 @@ alias symbol:iriap_close irda
 alias symbol:ata_std_bios_param libata
 alias symbol:drm_unplug_dev drm
 alias symbol:irlmp_connect_request irda
+alias symbol:xradio_core_init xradio_wlan
 alias symbol:ata_link_abort libata
 alias symbol:rt2x00mac_get_antenna rt2x00lib
 alias symbol:modem_get_config core
@@ -1027,6 +1028,7 @@ alias symbol:v4l2_m2m_release v4l2_mem2mem
 alias symbol:ssb_device_is_enabled ssb
 alias symbol:add_mtd_blktrans_dev mtd_blkdevs
 alias symbol:open_candev can_dev
+alias symbol:xradio_core_deinit xradio_wlan
 alias symbol:lc_seq_printf_stats lru_cache
 alias symbol:ircomm_flow_request ircomm
 alias symbol:drm_prime_remove_imported_buf_handle drm
