@@ -10,6 +10,16 @@ more powered features are like this::
 
 take advantages on your projects.
 
+********
+
+Built  Kernel module (.ko) is in following links.
+
+https://github.com/trustfarm/orangepi-zero-tfarm/tree/master/OrangePi-Kernel/build/lib/modules/3.4.39_zero/kernel
+
+Built  Kernel Image is in following links.
+
+https://github.com/trustfarm/orangepi-zero-tfarm/blob/master/OrangePi-Kernel/build/uImage
+
 --------------------
 
 The OrangePi-Kernel contains Linux kernel sources adapted for OrangePI zero, gcc toolchain
