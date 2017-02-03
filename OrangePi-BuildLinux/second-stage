@@ -354,6 +354,24 @@ else
     pid=$!
     proc_wait $pid "please wait"
     apt-get clean >> $_LOGFILE 2>&1
+
+    # ** INSTALL more extended packages ....
+    # apt-get -y install wireless-tools wpasupplicant axel build-essential git whiptail unzip
+    echo "Installing more packages..."
+    apt-get ${_apt} install vim nginx nginx-extras bluez bluez-hcidump bluez-obexd --no-install-recommends >> $_LOGFILE 2>&1 &
+    pid=$!
+    proc_wait $pid "please wait"
+    apt-get clean >> $_LOGFILE 2>&1
+
+    # nginx extra header setup
+    echo "Set nginx extra headers"
+    sed -i "s/# server_tokens off;/server_tokens off; \n\t more_set_headers 'Server:TF-IoTGW\/BLE-Server\/1.0.0'/" /etc/nginx/nginx.conf
+
+if [ -f /usr/local/bin/fs_resize_warning ]; then
+. /usr/local/bin/fs_resize_warning
+fi
+_EOF_
+
 fi
 
 rm -Rf /boot/* >> $_LOGFILE 2>&1
